@@ -142,7 +142,7 @@ void List::searchdelete(int mnumber){
     }
 }
 
-void List::listelöschen(){
+void List::listeloeschen(){
     Student* del = top;
     while(del!=nullptr){
     Student* temp = del->getnext();
